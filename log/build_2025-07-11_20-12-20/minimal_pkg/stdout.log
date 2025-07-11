@@ -1,0 +1,24 @@
+running egg_info
+creating ../../build/minimal_pkg/minimal_pkg.egg-info
+writing manifest file '../../build/minimal_pkg/minimal_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/minimal_pkg/minimal_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yared/ros2_ws/build/minimal_pkg/build
+creating /home/yared/ros2_ws/build/minimal_pkg/build/lib
+creating /home/yared/ros2_ws/build/minimal_pkg/build/lib/minimal_pkg
+copying minimal_pkg/__init__.py -> /home/yared/ros2_ws/build/minimal_pkg/build/lib/minimal_pkg
+running install
+running install_lib
+creating /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg
+byte-compiling /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yared/ros2_ws/install/minimal_pkg/share/ament_index
+creating /home/yared/ros2_ws/install/minimal_pkg/share/ament_index/resource_index
+creating /home/yared/ros2_ws/install/minimal_pkg/share/ament_index/resource_index/packages
+copying resource/minimal_pkg -> /home/yared/ros2_ws/install/minimal_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/yared/ros2_ws/install/minimal_pkg/share/minimal_pkg
+running install_egg_info
+Copying ../../build/minimal_pkg/minimal_pkg.egg-info to /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/yared/ros2_ws/build/minimal_pkg/install.log'
