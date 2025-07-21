@@ -1,0 +1,30 @@
+[1.201s] Invoking command in '/home/yared/ros2_ws/src/pubsub_py': PYTHONPATH=/home/yared/ros2_ws/build/pubsub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_py build --build-base /home/yared/ros2_ws/build/pubsub_py/build install --record /home/yared/ros2_ws/build/pubsub_py/install.log --single-version-externally-managed install_data
+[1.591s] running egg_info
+[1.592s] creating ../../build/pubsub_py/pubsub_py.egg-info
+[1.594s] writing manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'
+[1.598s] writing manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'
+[1.598s] running build
+[1.599s] running build_py
+[1.599s] creating /home/yared/ros2_ws/build/pubsub_py/build
+[1.599s] creating /home/yared/ros2_ws/build/pubsub_py/build/lib
+[1.600s] creating /home/yared/ros2_ws/build/pubsub_py/build/lib/pubsub_py
+[1.600s] copying pubsub_py/__init__.py -> /home/yared/ros2_ws/build/pubsub_py/build/lib/pubsub_py
+[1.600s] copying pubsub_py/sine_wave_sub_and_plot.py -> /home/yared/ros2_ws/build/pubsub_py/build/lib/pubsub_py
+[1.600s] copying pubsub_py/sine_wave_pub.py -> /home/yared/ros2_ws/build/pubsub_py/build/lib/pubsub_py
+[1.601s] running install
+[1.602s] running install_lib
+[1.604s] creating /home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py
+[1.605s] byte-compiling /home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py/__init__.py to __init__.cpython-310.pyc
+[1.606s] byte-compiling /home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py/sine_wave_sub_and_plot.py to sine_wave_sub_and_plot.cpython-310.pyc
+[1.607s] byte-compiling /home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py/sine_wave_pub.py to sine_wave_pub.cpython-310.pyc
+[1.608s] running install_data
+[1.608s] creating /home/yared/ros2_ws/install/pubsub_py/share/ament_index
+[1.608s] creating /home/yared/ros2_ws/install/pubsub_py/share/ament_index/resource_index
+[1.608s] creating /home/yared/ros2_ws/install/pubsub_py/share/ament_index/resource_index/packages
+[1.608s] copying resource/pubsub_py -> /home/yared/ros2_ws/install/pubsub_py/share/ament_index/resource_index/packages
+[1.609s] copying package.xml -> /home/yared/ros2_ws/install/pubsub_py/share/pubsub_py
+[1.609s] running install_egg_info
+[1.612s] Copying ../../build/pubsub_py/pubsub_py.egg-info to /home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py-0.0.0-py3.10.egg-info
+[1.613s] running install_scripts
+[1.648s] writing list of installed files to '/home/yared/ros2_ws/build/pubsub_py/install.log'
+[1.709s] Invoked command in '/home/yared/ros2_ws/src/pubsub_py' returned '0': PYTHONPATH=/home/yared/ros2_ws/build/pubsub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_py build --build-base /home/yared/ros2_ws/build/pubsub_py/build install --record /home/yared/ros2_ws/build/pubsub_py/install.log --single-version-externally-managed install_data

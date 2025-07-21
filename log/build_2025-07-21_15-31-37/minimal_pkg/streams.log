@@ -1,0 +1,28 @@
+[1.202s] Invoking command in '/home/yared/ros2_ws/src/minimal_pkg': PYTHONPATH=/home/yared/ros2_ws/build/minimal_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/minimal_pkg build --build-base /home/yared/ros2_ws/build/minimal_pkg/build install --record /home/yared/ros2_ws/build/minimal_pkg/install.log --single-version-externally-managed install_data
+[1.631s] running egg_info
+[1.632s] creating ../../build/minimal_pkg/minimal_pkg.egg-info
+[1.634s] writing manifest file '../../build/minimal_pkg/minimal_pkg.egg-info/SOURCES.txt'
+[1.637s] writing manifest file '../../build/minimal_pkg/minimal_pkg.egg-info/SOURCES.txt'
+[1.638s] running build
+[1.638s] running build_py
+[1.638s] creating /home/yared/ros2_ws/build/minimal_pkg/build
+[1.638s] creating /home/yared/ros2_ws/build/minimal_pkg/build/lib
+[1.639s] creating /home/yared/ros2_ws/build/minimal_pkg/build/lib/minimal_pkg
+[1.639s] copying minimal_pkg/__init__.py -> /home/yared/ros2_ws/build/minimal_pkg/build/lib/minimal_pkg
+[1.639s] copying minimal_pkg/minimal_node.py -> /home/yared/ros2_ws/build/minimal_pkg/build/lib/minimal_pkg
+[1.639s] running install
+[1.640s] running install_lib
+[1.641s] creating /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg
+[1.642s] byte-compiling /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg/__init__.py to __init__.cpython-310.pyc
+[1.643s] byte-compiling /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg/minimal_node.py to minimal_node.cpython-310.pyc
+[1.643s] running install_data
+[1.644s] creating /home/yared/ros2_ws/install/minimal_pkg/share/ament_index
+[1.645s] creating /home/yared/ros2_ws/install/minimal_pkg/share/ament_index/resource_index
+[1.645s] creating /home/yared/ros2_ws/install/minimal_pkg/share/ament_index/resource_index/packages
+[1.645s] copying resource/minimal_pkg -> /home/yared/ros2_ws/install/minimal_pkg/share/ament_index/resource_index/packages
+[1.645s] copying package.xml -> /home/yared/ros2_ws/install/minimal_pkg/share/minimal_pkg
+[1.645s] running install_egg_info
+[1.647s] Copying ../../build/minimal_pkg/minimal_pkg.egg-info to /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg-0.0.0-py3.10.egg-info
+[1.648s] running install_scripts
+[1.679s] writing list of installed files to '/home/yared/ros2_ws/build/minimal_pkg/install.log'
+[1.739s] Invoked command in '/home/yared/ros2_ws/src/minimal_pkg' returned '0': PYTHONPATH=/home/yared/ros2_ws/build/minimal_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/minimal_pkg build --build-base /home/yared/ros2_ws/build/minimal_pkg/build install --record /home/yared/ros2_ws/build/minimal_pkg/install.log --single-version-externally-managed install_data

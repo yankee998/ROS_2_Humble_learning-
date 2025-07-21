@@ -1,5 +1,7 @@
 /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg/__init__.py
+/home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg/minimal_node.py
 /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg/__pycache__/__init__.cpython-310.pyc
+/home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg/__pycache__/minimal_node.cpython-310.pyc
 /home/yared/ros2_ws/install/minimal_pkg/share/ament_index/resource_index/packages/minimal_pkg
 /home/yared/ros2_ws/install/minimal_pkg/share/minimal_pkg/package.xml
 /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
@@ -9,3 +11,4 @@
 /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg-0.0.0-py3.10.egg-info/requires.txt
 /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg-0.0.0-py3.10.egg-info/top_level.txt
 /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg-0.0.0-py3.10.egg-info/zip-safe
+/home/yared/ros2_ws/install/minimal_pkg/lib/minimal_pkg/minimal_node

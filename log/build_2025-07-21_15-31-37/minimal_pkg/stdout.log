@@ -8,10 +8,12 @@ creating /home/yared/ros2_ws/build/minimal_pkg/build
 creating /home/yared/ros2_ws/build/minimal_pkg/build/lib
 creating /home/yared/ros2_ws/build/minimal_pkg/build/lib/minimal_pkg
 copying minimal_pkg/__init__.py -> /home/yared/ros2_ws/build/minimal_pkg/build/lib/minimal_pkg
+copying minimal_pkg/minimal_node.py -> /home/yared/ros2_ws/build/minimal_pkg/build/lib/minimal_pkg
 running install
 running install_lib
 creating /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg
 byte-compiling /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg/minimal_node.py to minimal_node.cpython-310.pyc
 running install_data
 creating /home/yared/ros2_ws/install/minimal_pkg/share/ament_index
 creating /home/yared/ros2_ws/install/minimal_pkg/share/ament_index/resource_index

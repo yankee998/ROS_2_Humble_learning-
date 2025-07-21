@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000867] (minimal_pkg) JobQueued: {'identifier': 'minimal_pkg', 'dependencies': OrderedDict()}
+[0.000946] (pubsub_py) JobQueued: {'identifier': 'pubsub_py', 'dependencies': OrderedDict()}
+[0.000998] (minimal_pkg) JobStarted: {'identifier': 'minimal_pkg'}
+[0.010195] (pubsub_py) JobStarted: {'identifier': 'pubsub_py'}
+[0.099543] (-) TimerEvent: {}
+[0.200555] (-) TimerEvent: {}
+[0.300947] (-) TimerEvent: {}
+[0.401302] (-) TimerEvent: {}
+[0.501675] (-) TimerEvent: {}
+[0.602048] (-) TimerEvent: {}
+[0.702762] (-) TimerEvent: {}
+[0.803222] (-) TimerEvent: {}
+[0.903636] (-) TimerEvent: {}
+[1.004060] (-) TimerEvent: {}
+[1.104458] (-) TimerEvent: {}
+[1.201254] (minimal_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/minimal_pkg', 'build', '--build-base', '/home/yared/ros2_ws/build/minimal_pkg/build', 'install', '--record', '/home/yared/ros2_ws/build/minimal_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yared/ros2_ws/src/minimal_pkg', 'env': {'USER': 'yared', 'LC_TIME': 'am_ET', 'ROS_PACKAGE_PATH': '/opt/ros/humble/share', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/yared', 'OLDPWD': '/home/yared/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'am_ET', 'SYSTEMD_EXEC_PID': '2568', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yared/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yared', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yared', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/yared/tello_sim_ws/install/tello_sim/share/tello_sim/models:/home/yared/tello_sim_ws/install/tello_sim/share/tello_sim/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/bin:/opt/ros/humble/bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yared:@/tmp/.ICE-unix/2543,unix/yared:/tmp/.ICE-unix/2543', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'am_ET', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/83aaa2fc_daf3_429f_b66d_168625a0a7e3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'am_ET', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZJXK92', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yared/ros2_ws/install/pubsub_py:/home/yared/ros2_ws/install/minimal_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'am_ET', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'am_ET', 'LC_IDENTIFICATION': 'am_ET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yared/ros2_ws/build/minimal_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yared/ros2_ws/build/minimal_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages:/home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages:/home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'am_ET', 'LC_PAPER': 'am_ET', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.204685] (-) TimerEvent: {}
+[1.207741] (pubsub_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/pubsub_py', 'build', '--build-base', '/home/yared/ros2_ws/build/pubsub_py/build', 'install', '--record', '/home/yared/ros2_ws/build/pubsub_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yared/ros2_ws/src/pubsub_py', 'env': {'USER': 'yared', 'LC_TIME': 'am_ET', 'ROS_PACKAGE_PATH': '/opt/ros/humble/share', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/yared', 'OLDPWD': '/home/yared/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'am_ET', 'SYSTEMD_EXEC_PID': '2568', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yared/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yared', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yared', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/yared/tello_sim_ws/install/tello_sim/share/tello_sim/models:/home/yared/tello_sim_ws/install/tello_sim/share/tello_sim/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/bin:/opt/ros/humble/bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yared:@/tmp/.ICE-unix/2543,unix/yared:/tmp/.ICE-unix/2543', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'am_ET', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/83aaa2fc_daf3_429f_b66d_168625a0a7e3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'am_ET', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZJXK92', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yared/ros2_ws/install/pubsub_py:/home/yared/ros2_ws/install/minimal_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'am_ET', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'am_ET', 'LC_IDENTIFICATION': 'am_ET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yared/ros2_ws/build/pubsub_py', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yared/ros2_ws/build/pubsub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages:/home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages:/home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'am_ET', 'LC_PAPER': 'am_ET', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.304820] (-) TimerEvent: {}
+[1.405200] (-) TimerEvent: {}
+[1.505563] (-) TimerEvent: {}
+[1.601182] (pubsub_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.602102] (pubsub_py) StdoutLine: {'line': b'creating ../../build/pubsub_py/pubsub_py.egg-info\n'}
+[1.603781] (pubsub_py) StdoutLine: {'line': b"writing manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'\n"}
+[1.605664] (-) TimerEvent: {}
+[1.608168] (pubsub_py) StdoutLine: {'line': b"writing manifest file '../../build/pubsub_py/pubsub_py.egg-info/SOURCES.txt'\n"}
+[1.608544] (pubsub_py) StdoutLine: {'line': b'running build\n'}
+[1.608784] (pubsub_py) StdoutLine: {'line': b'running build_py\n'}
+[1.609222] (pubsub_py) StdoutLine: {'line': b'creating /home/yared/ros2_ws/build/pubsub_py/build\n'}
+[1.609475] (pubsub_py) StdoutLine: {'line': b'creating /home/yared/ros2_ws/build/pubsub_py/build/lib\n'}
+[1.609701] (pubsub_py) StdoutLine: {'line': b'creating /home/yared/ros2_ws/build/pubsub_py/build/lib/pubsub_py\n'}
+[1.609924] (pubsub_py) StdoutLine: {'line': b'copying pubsub_py/__init__.py -> /home/yared/ros2_ws/build/pubsub_py/build/lib/pubsub_py\n'}
+[1.610302] (pubsub_py) StdoutLine: {'line': b'copying pubsub_py/sine_wave_sub_and_plot.py -> /home/yared/ros2_ws/build/pubsub_py/build/lib/pubsub_py\n'}
+[1.610484] (pubsub_py) StdoutLine: {'line': b'copying pubsub_py/sine_wave_pub.py -> /home/yared/ros2_ws/build/pubsub_py/build/lib/pubsub_py\n'}
+[1.610645] (pubsub_py) StdoutLine: {'line': b'running install\n'}
+[1.612334] (pubsub_py) StdoutLine: {'line': b'running install_lib\n'}
+[1.613999] (pubsub_py) StdoutLine: {'line': b'creating /home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py\n'}
+[1.615417] (pubsub_py) StdoutLine: {'line': b'byte-compiling /home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py/__init__.py to __init__.cpython-310.pyc\n'}
+[1.615807] (pubsub_py) StdoutLine: {'line': b'byte-compiling /home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py/sine_wave_sub_and_plot.py to sine_wave_sub_and_plot.cpython-310.pyc\n'}
+[1.617118] (pubsub_py) StdoutLine: {'line': b'byte-compiling /home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py/sine_wave_pub.py to sine_wave_pub.cpython-310.pyc\n'}
+[1.617735] (pubsub_py) StdoutLine: {'line': b'running install_data\n'}
+[1.617981] (pubsub_py) StdoutLine: {'line': b'creating /home/yared/ros2_ws/install/pubsub_py/share/ament_index\n'}
+[1.618203] (pubsub_py) StdoutLine: {'line': b'creating /home/yared/ros2_ws/install/pubsub_py/share/ament_index/resource_index\n'}
+[1.618426] (pubsub_py) StdoutLine: {'line': b'creating /home/yared/ros2_ws/install/pubsub_py/share/ament_index/resource_index/packages\n'}
+[1.618551] (pubsub_py) StdoutLine: {'line': b'copying resource/pubsub_py -> /home/yared/ros2_ws/install/pubsub_py/share/ament_index/resource_index/packages\n'}
+[1.618673] (pubsub_py) StdoutLine: {'line': b'copying package.xml -> /home/yared/ros2_ws/install/pubsub_py/share/pubsub_py\n'}
+[1.618835] (pubsub_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.621750] (pubsub_py) StdoutLine: {'line': b'Copying ../../build/pubsub_py/pubsub_py.egg-info to /home/yared/ros2_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub_py-0.0.0-py3.10.egg-info\n'}
+[1.623393] (pubsub_py) StdoutLine: {'line': b'running install_scripts\n'}
+[1.632263] (minimal_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.633129] (minimal_pkg) StdoutLine: {'line': b'creating ../../build/minimal_pkg/minimal_pkg.egg-info\n'}
+[1.634712] (minimal_pkg) StdoutLine: {'line': b"writing manifest file '../../build/minimal_pkg/minimal_pkg.egg-info/SOURCES.txt'\n"}
+[1.638417] (minimal_pkg) StdoutLine: {'line': b"writing manifest file '../../build/minimal_pkg/minimal_pkg.egg-info/SOURCES.txt'\n"}
+[1.638874] (minimal_pkg) StdoutLine: {'line': b'running build\n'}
+[1.639250] (minimal_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.639444] (minimal_pkg) StdoutLine: {'line': b'creating /home/yared/ros2_ws/build/minimal_pkg/build\n'}
+[1.639579] (minimal_pkg) StdoutLine: {'line': b'creating /home/yared/ros2_ws/build/minimal_pkg/build/lib\n'}
+[1.639707] (minimal_pkg) StdoutLine: {'line': b'creating /home/yared/ros2_ws/build/minimal_pkg/build/lib/minimal_pkg\n'}
+[1.639836] (minimal_pkg) StdoutLine: {'line': b'copying minimal_pkg/__init__.py -> /home/yared/ros2_ws/build/minimal_pkg/build/lib/minimal_pkg\n'}
+[1.640130] (minimal_pkg) StdoutLine: {'line': b'copying minimal_pkg/minimal_node.py -> /home/yared/ros2_ws/build/minimal_pkg/build/lib/minimal_pkg\n'}
+[1.640375] (minimal_pkg) StdoutLine: {'line': b'running install\n'}
+[1.641301] (minimal_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.642458] (minimal_pkg) StdoutLine: {'line': b'creating /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg\n'}
+[1.643495] (minimal_pkg) StdoutLine: {'line': b'byte-compiling /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[1.643969] (minimal_pkg) StdoutLine: {'line': b'byte-compiling /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg/minimal_node.py to minimal_node.cpython-310.pyc\n'}
+[1.644451] (minimal_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.645224] (minimal_pkg) StdoutLine: {'line': b'creating /home/yared/ros2_ws/install/minimal_pkg/share/ament_index\n'}
+[1.645630] (minimal_pkg) StdoutLine: {'line': b'creating /home/yared/ros2_ws/install/minimal_pkg/share/ament_index/resource_index\n'}
+[1.645887] (minimal_pkg) StdoutLine: {'line': b'creating /home/yared/ros2_ws/install/minimal_pkg/share/ament_index/resource_index/packages\n'}
+[1.646126] (minimal_pkg) StdoutLine: {'line': b'copying resource/minimal_pkg -> /home/yared/ros2_ws/install/minimal_pkg/share/ament_index/resource_index/packages\n'}
+[1.646335] (minimal_pkg) StdoutLine: {'line': b'copying package.xml -> /home/yared/ros2_ws/install/minimal_pkg/share/minimal_pkg\n'}
+[1.646520] (minimal_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.647893] (minimal_pkg) StdoutLine: {'line': b'Copying ../../build/minimal_pkg/minimal_pkg.egg-info to /home/yared/ros2_ws/install/minimal_pkg/lib/python3.10/site-packages/minimal_pkg-0.0.0-py3.10.egg-info\n'}
+[1.649060] (minimal_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.658454] (pubsub_py) StdoutLine: {'line': b"writing list of installed files to '/home/yared/ros2_ws/build/pubsub_py/install.log'\n"}
+[1.680365] (minimal_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/yared/ros2_ws/build/minimal_pkg/install.log'\n"}
+[1.705850] (-) TimerEvent: {}
+[1.718977] (pubsub_py) CommandEnded: {'returncode': 0}
+[1.736071] (pubsub_py) JobEnded: {'identifier': 'pubsub_py', 'rc': 0}
+[1.739665] (minimal_pkg) CommandEnded: {'returncode': 0}
+[1.756499] (minimal_pkg) JobEnded: {'identifier': 'minimal_pkg', 'rc': 0}
+[1.757879] (-) EventReactorShutdown: {}
